@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
+
+.people_screen {
+    left: 150%;
+    align-items: center;
+    background-clip: padding-box;
+    background-color: #fa6400;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 1.25;
+    margin: 0;
+    min-height: 3rem;
+    padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+    position: relative;
+    text-decoration: none;
+    transition: all 250ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    width: auto;
+  }
+  
+  .people_screen:hover,
+  .people_screen:focus {
+    background-color: #fb8332;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+  }
+  
+  .people_screen:hover {
+    transform: translateY(-1px);
+  }
+  
+  .people_screen:active {
+    background-color: #c85000;
+    box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
+    transform: translateY(0);
+  }
+  
+
+.btnholder{
+    display: inline-block;
+}
+
+h3{
+    font-size: 30px;
+    color: white;
+    background-color: black;
+    display: inline;
+}
+h2{
+    color: white;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+main{
+    background-color: #1d2927;
+    width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+    padding: 1.5rem 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.signature{
+    width: 300px;
+    grid-column-start: 1;
+}
+
+nav {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;
+    justify-items: center;
+}
+
+nav ul{
+    display: flex;
+    justify-self: flex-end;
+}
+
+.nav-link a {
+    display: inline-block;
+    padding: 2rem;
+    color: #e7e2db;
+    font-weight: 200;
+    letter-spacing: 1px;
+    transition: .3s;
+}
+
+.nav-link a i{
+    transform: translateY(2px);
+    margin-left: 0.2rem;
+    font-size: 1.1rem;
+}
+
+.nav-link a:hover{
+    color: #f3c892;
+}
+
+.Title{
+    color: #f3f0eb;
+    font-size: 4.5rem;
+    font-weight: 500;
+    text-align: center;
+    line-height: 1;
+}
+
+.bottom-section{
+    display: flex;
+    justify-content: space-between;
+}
